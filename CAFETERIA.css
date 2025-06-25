@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f5f2;
+  color: #333;
+}
+
+header {
+  background-color: #3e2723;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('cafe.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+  color:#000000 ;
+}
+
+.menu {
+  padding: 50px 20px;
+  background-color: #663300;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.item {
+  background: #f1ebe5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#nosotros,
+#contacto {
+  padding: 50px 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #6d4c41;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5d4037;
+}
+
+footer {
+  background-color: #3e2723;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
